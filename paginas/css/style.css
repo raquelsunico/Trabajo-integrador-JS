@@ -1,0 +1,264 @@
+
+
+.header{
+    background:rgb(82, 58, 74);
+    color: lightgray;
+    padding: 0.3rem 0rem;
+    position: fixed;
+    left: 0%;
+    top: 0;
+    right: 0%;
+}
+.header a{
+    color: white;
+    text-decoration: none;
+    align-items: center;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    line-height: 1.2em;
+}
+
+.logo-nav-contenedor{
+    display:flex;
+    justify-content:space-between;
+}
+
+.logo-nav-contenedor .p{
+    text-align: center;
+    
+}
+
+.logo {
+    color: white;
+    font-size: 18px;
+    padding: 1.5rem 0.5rem;
+}
+
+.menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    display: block;
+    padding: 1.5rem 0.5rem;
+    transition: all 0.4s linear;
+    border-radius: 3px;
+    font-size: 16px;
+    justify-content: right 0;
+}
+
+.menu ul li a:hover{
+    background: #4d4b4b;
+}
+.main{
+    margin-left: 20rem;
+    margin-right: 20rem;
+    padding-top: 5rem;
+    justify-content: space-between;
+}
+
+h2{
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+
+.contenedor{
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2 span{
+    font-size: 2rem;
+}
+
+.card-text{
+    font-size: 0.2rem;
+}
+
+.skills{
+    display: flex;
+}
+.card-body button{
+    width: 30%;
+    height: 1.5rem;
+    font-weight: bold;
+    padding: 0rem 0.2rem;
+    margin-right: 5px;
+    font-size: 0.9rem;
+}
+
+.btn-primary {
+    background-color: #0a2a30;
+    border-color: #0a2a30;
+}
+
+.row{
+    height: 80vh;
+    width: 100%;
+    margin: 0;
+}
+
+.btn-outline-secondary{
+    color: white;
+}
+
+.container-fluid{
+    width: 100%;
+}
+.formulario, .form-sale{
+    width: 60%;
+    margin-left: 20%;
+}
+
+.nombre-apellido{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nombre-apellido .mb-3, .cantidad-categoria .mb-3{
+    width: 49%;
+}
+
+#enviar, #borrar, #resumen{
+    background-color: #8fc453;
+    border: 1px solid #8fc453;
+}
+#enviar:hover{
+    background-color: #5b7a36;
+}
+
+
+#cards{
+    height: auto;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    margin: 7% 0 2% 18%;
+    align-items: center;
+
+}
+
+#cards .card{
+    width: 13rem; 
+    height: 12rem;
+    margin: 0 4%;
+    text-align: center; 
+}
+
+#venta{
+    text-align: center; 
+    margin: 0 0 1% 0; 
+    font-weight: lighter;
+}
+
+.sale-title{
+    margin-top: 0;
+}
+.cantidad-categoria{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.alert .alert-primary{
+    margin-top: 3%;
+}
+
+#total{
+    margin: 0;
+}
+.buttons-sale{
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttons-sale button{
+    width: 49%;
+}
+footer .nav{
+    background-color: rgb(19, 52, 71);
+    margin: 2rem 0 0 0;
+    padding: 1.5rem;
+}
+
+.nav-link{
+    color: white;
+    margin: 0 10px;
+}
+
+.nav-link:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.nav-link:visited{
+    color: white;
+}
+
+.navbar{
+        padding: 10px;
+        margin: 0;
+    }
+   
+.div-der p{
+    font-size: 0.8rem;
+}
+
+.div-der button{
+    font-size: 0.8rem;
+}
+
+#cards{
+    margin-left: 15%;
+    flex-direction: column;
+}
+.footer{
+    background: #dad0d3;
+    text-align: center;
+    margin-top: 15rem;
+    padding: 2rem 0;
+    left: 0;
+    top: 0;
+    right: 0;
+    justify-content: space-between;
+}
+.foot-menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.foot-menu ul li{
+    display: inline-block;
+}
+.foot-menu ul li a{
+ 
+    display: block;
+    padding: 0rem 0rem;
+    transition: all 0.4s linear;
+    font-size: 16px;
+    justify-content: right 0;
+    color:blue;
+    align-items: center;
+}
+
+.foot-menu ul li a:hover{
+    background: #8f878d;
+}
+
+
