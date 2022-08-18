@@ -261,5 +261,8 @@ footer .nav{
 }
 
 @media(max-width:480px){
+    .header{
+        position: static;
+    }
     .main, .nombre-apellido, .container-fluid,.contenedor
 }

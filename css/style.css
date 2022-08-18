@@ -162,12 +162,16 @@ h2 {
 }
 
 @media(max-width:480px){
-  .main,  
+  .main
+  .header{
+    position: static;
+  }  
 h2{
   .caja
 }
 .footer{
-  .footer, .footer ul li, footer ul li a, 
+
+   .footer, .footer ul li, footer ul li a, 
 }
 }
 
