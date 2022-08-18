@@ -3,7 +3,7 @@
 .header{
     background:rgb(82, 58, 74);
     color: lightgray;
-    padding: 0.3rem 0rem;
+    padding: 0.3rem 0rem 0 0;
     position: fixed;
     left: 0%;
     top: 0;
@@ -13,6 +13,7 @@
     color: white;
     text-decoration: none;
     align-items: center;
+    
 }
 
 body{
@@ -58,9 +59,8 @@ body{
     background: #4d4b4b;
 }
 .main{
-    margin-left: 20rem;
-    margin-right: 20rem;
-    padding-top: 5rem;
+   width: auto;
+   padding: 20px 25px 20px 20px;
     justify-content: space-between;
     flex-wrap: wrap;
     min-width: 250px;
@@ -74,7 +74,7 @@ h2{
 
 
 .contenedor{
-    width: 80%;
+    width: auto%;
     max-width: 800px;
     margin: 0 auto;
 }
@@ -115,7 +115,7 @@ h2 span{
 }
 
 .container-fluid{
-    width: 100%;
+    width: auto;
 }
 .formulario, .form-sale{
     width: 60%;
@@ -123,7 +123,7 @@ h2 span{
 }
 
 .nombre-apellido{
-    width: 100%;
+    width: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -234,10 +234,7 @@ footer .nav{
     background: #dad0d3;
     text-align: center;
     margin-top: 15rem;
-    padding: 2rem 0;
-    left: 0;
-    top: 0;
-    right: 0;
+    padding: 2rem 0 0 0;
     justify-content: space-between;
 }
 .foot-menu ul{
@@ -263,4 +260,6 @@ footer .nav{
     background: #8f878d;
 }
 
-
+@media(max-width:480px){
+    .main, .nombre-apellido, .container-fluid,.contenedor
+}

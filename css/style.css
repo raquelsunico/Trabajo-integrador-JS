@@ -1,4 +1,4 @@
-* {
+*{
   margin: 0;
   padding: 0;
 }
@@ -23,10 +23,58 @@ body {
   line-height: 1.2em;
 }
 
+.main {
+  padding: 20%;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.3rem;
+  flex-wrap: wrap;
+  
+}
+
+.cajas{
+    margin: 10%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    min-width: 250px;
+}
+.seleccion{
+  padding-top: 10%;
+  text-align: center;
+  font-size: 20px;
+}
+
+.Est, .sec {
+  border-radius: 1rem;
+  width: 15rem;
+  height: 12rem;
+  text-align: center;
+  padding: 5px;
+}
+
+.trai, .sec {
+  border-radius: 1rem;
+  width: 15rem;
+  height: 12rem;
+  text-align: center;
+  padding: 5px;
+}
+
+.jun, .sec {
+  border-radius: 1rem;
+  width: 15rem;
+  height: 12rem;
+  text-align: center;
+  padding: 5px;
+}
+
+
 .logo-nav-contenedor {
   display: flex;
   justify-content: space-between;
 }
+
 
 .logo {
   color: white;
@@ -57,15 +105,7 @@ body {
   background: #381b2f;
 }
 
-.main {
-  padding: 10rem;
-  padding-top: 5rem;
-  display: flex;
-  justify-content: space-between;
-  font-size: 1.3rem;
-  flex-wrap: wrap;
-  min-width: 250px;
-}
+
 
 h2 {
   margin-top: 2rem;
@@ -73,34 +113,10 @@ h2 {
   font-size: 1.8rem;
 }
 
-.sech1 {
-  text-align: center;
-  display: flex;
-  flex-wrap: wrap;
-}
-.Est .sec {
-  border-radius: 9rem;
-  width: 15rem;
-  height: 12rem;
-  text-align: center;
-  padding: auto;
+.caja{
+  padding-top: 0;
 }
 
-.trai .sec {
-  border-radius: 9rem;
-  width: 15rem;
-  height: 12rem;
-  text-align: center;
-  padding: auto;
-}
-
-.jun .sec {
-  border-radius: 9rem;
-  width: 15rem;
-  height: 12rem;
-  text-align: center;
-  padding: auto;
-}
 
 .h1 {
   color: #000;
@@ -119,22 +135,19 @@ h2 {
 .footer {
   background: #dad0d3;
   text-align: center;
-  margin-top: 15rem;
+  margin: 20%;
   padding: 2rem 0;
-  left: 0;
-  top: 0;
-  right: 0;
   justify-content: space-between;
 }
-.foot-menu ul {
+.footer ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-.foot-menu ul li {
+.footer ul li {
   display: inline-block;
 }
-.foot-menu ul li a {
+.footer ul li a {
   display: block;
   padding: 0rem 0rem;
   transition: all 0.4s linear;
@@ -144,6 +157,17 @@ h2 {
   align-items: center;
 }
 
-.foot-menu ul li a:hover {
+.footer ul li a:hover {
   background: #8f878d;
 }
+
+@media(max-width:480px){
+  .main,  
+h2{
+  .caja
+}
+.footer{
+  .footer, .footer ul li, footer ul li a, 
+}
+}
+
