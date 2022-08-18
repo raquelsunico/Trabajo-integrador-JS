@@ -6,7 +6,7 @@
   background: rgb(70, 56, 65);
   color: lightgray;
   padding: 0.3rem 0rem;
-  position: absolute;
+  position: fixed;
   left: 0%;
   top: 0;
   right: 0%;
@@ -40,6 +40,7 @@ body {
     flex-wrap: wrap;
     min-width: 250px;
 }
+
 .seleccion{
   padding-top: 10%;
   text-align: center;
